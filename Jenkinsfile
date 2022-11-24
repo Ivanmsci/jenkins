@@ -17,7 +17,7 @@ pipeline {
 
         stage('Front end test unit') {
           steps {
-            sh 'cd curriculum-fron && npm i && npm run test:unit'
+            sh 'cd curriculum-front && npm i && npm run test:unit'
           }
         }
 
